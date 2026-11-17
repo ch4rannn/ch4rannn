@@ -1,13 +1,13 @@
-# Hi, I'm Chiranjivi Sah 👋
+<img src="./assets/header.svg" alt="Chiranjivi Sah. I build web apps, games and tools for real people. Now shipping the LabForge Android app." width="100%" />
 
 Student developer building web apps, small full-stack products and tools for real people.
 I work in **JavaScript, TypeScript, React and Python**.
 
-## What I'm working on
+### Working on now
 
-- 📱 **LabForge Android app**: an Android app for [LabForge](https://github.com/SHZunknown11/Lab-Forge), a lab report generator for students. I built the app with Capacitor, native downloads and AdMob rewarded ads, and added the backend support it needs.
+📱 **LabForge Android app**: an Android app for [LabForge](https://github.com/SHZunknown11/Lab-Forge), a lab report generator for students. I built the app with Capacitor, native downloads and AdMob rewarded ads, and added the backend support it needs.
 
-## Projects
+### Projects
 
 | Project | What it is | Stack |
 | --- | --- | --- |
@@ -19,14 +19,17 @@ I work in **JavaScript, TypeScript, React and Python**.
 | [Ali Fruits](https://github.com/ch4rannn/ali-fruits) | Website for a fruit business | TypeScript |
 | [Mochi Kitchen](https://github.com/ch4rannn/mochi-kitchen-masculine-) | Food website | JavaScript |
 
-## Tools
+### Tools
 
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=black)
-![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white)
-![Android](https://img.shields.io/badge/-Android-3DDC84?logo=android&logoColor=white)
+<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=js,ts,react,py,androidstudio,git&perline=6" alt="JavaScript, TypeScript, React, Python, Android Studio, Git" /></a>
 
-## Get in touch
+### Contributions
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ch4rannn/ch4rannn/output/snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/ch4rannn/ch4rannn/output/snake-light.svg" alt="A snake eating my GitHub contribution graph" width="100%" />
+</picture>
+
+### Get in touch
 
 Open an issue or a pull request on any of my repos.
