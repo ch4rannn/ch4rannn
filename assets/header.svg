@@ -1,13 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="t d">
   <title id="t">Chiranjivi Sah</title>
-  <desc id="d">A lab notebook page. The name Chiranjivi Sah is written in ink, the line "I build web apps, games and tools for real people" gets highlighted, and a margin note says "now: shipping the LabForge Android app". A flask on the right bubbles.</desc>
+  <desc id="d">A lab notebook page. The name Chiranjivi Sah is written in ink and the line "I build web apps, games and tools for real people" gets highlighted. A flask on the right bubbles.</desc>
   <defs>
     <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
       <path d="M24 0H0V24" fill="none" stroke="#D3DCEF" stroke-width="1"/>
     </pattern>
-    <clipPath id="type">
-      <rect class="typer" x="140" y="248" width="545" height="50"/>
-    </clipPath>
     <style>
       .ink { fill: #1B2A6B; }
       .name {
@@ -20,9 +17,6 @@
       }
       .line { font: 500 30px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #1B2A6B; opacity: 0; animation: show .5s ease-out 2.2s forwards; }
       .hl { fill: #FFE45C; transform-box: fill-box; transform-origin: left center; transform: scaleX(0) skewX(-8deg); animation: sweep .7s cubic-bezier(.6,0,.3,1) 2.8s forwards; }
-      .note { font: 26px 'Segoe Print', 'Bradley Hand', 'Comic Sans MS', cursive; fill: #2F55D4; }
-      .typer { transform-box: fill-box; transform-origin: left; transform: scaleX(0); animation: typing 2.2s steps(38, end) 3.6s forwards; }
-      .caret { fill: #2F55D4; opacity: 0; animation: show 0s 3.6s forwards, blink 1s steps(1) 3.6s infinite; }
       .flask { fill: none; stroke: #1B2A6B; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: 700; stroke-dashoffset: 700; animation: write 1.6s ease-in-out .6s forwards; }
       .liquid { fill: #FFE45C; opacity: 0; animation: show .6s ease-out 2s forwards; }
       .bubble { fill: none; stroke: #1B2A6B; stroke-width: 2; opacity: 0; animation: rise 3s ease-in 2.4s infinite; }
@@ -32,8 +26,6 @@
       @keyframes ink { to { fill-opacity: 1; } }
       @keyframes show { to { opacity: 1; } }
       @keyframes sweep { to { transform: scaleX(1) skewX(-8deg); } }
-      @keyframes typing { to { transform: scaleX(1); } }
-      @keyframes blink { 50% { opacity: 0; } }
       @keyframes rise {
         0% { opacity: 0; transform: translateY(0); }
         15% { opacity: 1; }
@@ -43,9 +35,8 @@
       @media (prefers-reduced-motion: reduce) {
         * { animation: none !important; }
         .name { fill-opacity: 1; stroke-dashoffset: 0; }
-        .line, .liquid, .caret { opacity: 1; }
+        .line, .liquid { opacity: 1; }
         .hl { transform: skewX(-8deg); }
-        .typer { transform: none; }
         .flask { stroke-dashoffset: 0; }
       }
     </style>
@@ -60,17 +51,12 @@
   </g>
 
   <!-- name -->
-  <text class="name" x="140" y="130">Chiranjivi Sah</text>
+  <text class="name" x="140" y="160">Chiranjivi Sah</text>
 
   <!-- highlighted line -->
-  <rect class="hl" x="134" y="170" width="706" height="40" rx="4"/>
-  <text class="line" x="140" y="200">I build web apps, games and tools for real people.</text>
+  <rect class="hl" x="134" y="200" width="706" height="40" rx="4"/>
+  <text class="line" x="140" y="230">I build web apps, games and tools for real people.</text>
 
-  <!-- handwritten margin note, typed out -->
-  <g clip-path="url(#type)">
-    <text class="note" x="140" y="282">now: shipping the LabForge Android app</text>
-  </g>
-  <rect class="caret" x="688" y="258" width="3" height="30"/>
 
   <!-- flask -->
   <path class="liquid" d="M980 232 Q1005 222 1030 232 T1080 232 L1104 280 Q1108 290 1098 290 H962 Q952 290 956 280 Z"/>

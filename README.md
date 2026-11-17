@@ -1,4 +1,4 @@
-<img src="./assets/header.svg" alt="Chiranjivi Sah. I build web apps, games and tools for real people. Now shipping the LabForge Android app." width="100%" />
+<img src="./assets/header.svg" alt="Chiranjivi Sah. I build web apps, games and tools for real people." width="100%" />
 
 Student developer building web apps, small full-stack products and tools for real people.
 I work in **JavaScript, TypeScript, React and Python**.
